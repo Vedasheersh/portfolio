@@ -217,12 +217,27 @@ ${project.description}
     }
   }
 
+  // Generate presentations HTML
+  let presentationsHtml = '';
+  if (archiveData.presentations) {
+    for (const pres of archiveData.presentations) {
+      presentationsHtml += `
+<div class="bg-surface-container-low border border-outline-variant p-6">
+<p class="label-meta text-primary font-bold text-[10px] mb-2">${pres.date}</p>
+<h4 class="serif-display text-lg font-bold leading-tight mb-2">${pres.title}</h4>
+<p class="font-body text-xs text-on-secondary-container tracking-tight mb-2">${pres.authors}</p>
+<p class="label-meta text-[9px] text-outline font-bold">${pres.venue}</p>
+</div>`;
+    }
+  }
+
   const bodyHtml = render(archiveTemplate, {
     subtitle: archiveData.subtitle,
     subtitle_text: archiveData.subtitle_text,
     subtitle_meta: archiveData.subtitle_meta,
     projects_html: projectsHtml,
     publications_html: publicationsHtml,
+    presentations_html: presentationsHtml,
     impact_publications: archiveData.impact.publications,
     impact_citations: archiveData.impact.citations,
     impact_h_index: archiveData.impact.h_index,
