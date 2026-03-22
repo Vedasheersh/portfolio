@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    background-color: #faf9f5;
+    color: #2f342e;
+}
+
+.serif-display {
+    font-family: 'Newsreader', serif;
+}
+
+.label-meta {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.justified-text {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+}
+
+@media (max-width: 767px) {
+    .justified-text {
+        text-align: left;
+    }
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid #aa3527;
+    outline-offset: 2px;
+}
+
+/* Typography refinements — Design A */
+h1, h2 {
+    text-wrap: balance;
+}
+
+/* Timeline milestone hover */
+.milestone-item {
+    transition: background-color 0.15s ease-out;
+}
+.milestone-item:hover {
+    background-color: rgba(244, 244, 239, 0.5);
+}
+
+/* Smooth link underlines */
+a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+/* Font feature settings for numbers */
+.tabular-nums {
+    font-variant-numeric: tabular-nums;
+}

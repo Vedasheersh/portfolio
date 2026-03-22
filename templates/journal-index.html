@@ -1,0 +1,50 @@
+<main id="main-content" class="pt-8 pb-12 px-4 md:px-8 max-w-[1400px] mx-auto">
+<!-- Header -->
+<header class="border-b-2 border-on-background pb-6 md:pb-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-4 mb-10">
+<div class="max-w-3xl">
+<p class="label-meta text-primary font-bold mb-2">Computational Protein Engineer</p>
+<h1 class="serif-display text-3xl md:text-5xl font-black leading-tight tracking-tight text-on-background">Veda Sheersh Boorla</h1>
+</div>
+<div class="md:text-right space-y-3">
+<nav aria-label="Main navigation">
+<div class="flex gap-6 md:justify-end">
+<a class="label-meta font-bold text-[#2f342e] opacity-70 hover:opacity-100 transition-opacity hover:text-[#aa3527] py-2" href="index.html">Home</a>
+<a class="label-meta font-bold text-[#2f342e] opacity-70 hover:opacity-100 transition-opacity hover:text-[#aa3527] py-2" href="archive.html">Archive</a>
+<a class="label-meta font-bold text-[#aa3527] border-b-2 border-[#aa3527] py-2" href="journal.html">Journal</a>
+</div>
+</nav>
+<p class="label-meta hidden md:block">Thousand Oaks, California</p>
+</div>
+</header>
+
+<!-- Page Title -->
+<div class="mb-10">
+<h2 class="serif-display text-4xl md:text-5xl font-bold tracking-tight leading-none mb-3">{{subtitle}}</h2>
+<p class="serif-display italic text-lg md:text-xl text-on-surface-variant max-w-3xl leading-snug">
+{{subtitle_text}}
+</p>
+</div>
+
+<!-- Content Area -->
+<div class="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-12">
+<div class="md:col-span-3">
+<div class="bg-surface-container-low border border-outline-variant p-8 md:p-10">
+<p class="label-meta text-primary font-bold tracking-[0.15em] mb-4">Editor's Note</p>
+<p class="serif-display text-xl md:text-2xl leading-relaxed text-on-background">
+{{editors_note}}
+</p>
+<p class="font-body text-sm text-on-surface-variant mt-6 leading-relaxed">
+{{editors_note_followup}}
+</p>
+</div>
+</div>
+<aside class="md:col-span-2">
+<div class="border-t border-outline-variant pt-6">
+<h3 class="label-meta font-black text-on-background mb-4">Topics to Expect</h3>
+<ul class="space-y-3">
+{{topics_html}}
+</ul>
+</div>
+</aside>
+</div>
+</main>

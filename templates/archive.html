@@ -1,0 +1,80 @@
+<main id="main-content" class="pt-8 pb-12 px-4 md:px-8 max-w-[1400px] mx-auto">
+<!-- Header -->
+<header class="border-b-2 border-on-background pb-6 md:pb-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-4 mb-10">
+<div class="max-w-3xl">
+<p class="label-meta text-primary font-bold mb-2">Computational Protein Engineer</p>
+<h1 class="serif-display text-3xl md:text-5xl font-black leading-tight tracking-tight text-on-background">Veda Sheersh Boorla</h1>
+</div>
+<div class="md:text-right space-y-3">
+<nav aria-label="Main navigation">
+<div class="flex gap-6 md:justify-end">
+<a class="label-meta font-bold text-[#2f342e] opacity-70 hover:opacity-100 transition-opacity hover:text-[#aa3527] py-2" href="index.html">Home</a>
+<a class="label-meta font-bold text-[#aa3527] border-b-2 border-[#aa3527] py-2" href="archive.html">Archive</a>
+<a class="label-meta font-bold text-[#2f342e] opacity-70 hover:opacity-100 transition-opacity hover:text-[#aa3527] py-2" href="journal.html">Journal</a>
+</div>
+</nav>
+<p class="label-meta hidden md:block">Thousand Oaks, California</p>
+</div>
+</header>
+
+<!-- Page Subtitle -->
+<div class="mb-10">
+<h2 class="serif-display text-4xl md:text-5xl font-bold tracking-tight leading-none mb-3">{{subtitle}}</h2>
+<p class="serif-display italic text-lg md:text-xl text-on-surface-variant max-w-3xl leading-snug">
+{{subtitle_text}}
+</p>
+<div class="label-meta text-on-surface-variant mt-3 hidden md:block">{{subtitle_meta}}</div>
+</div>
+
+<!-- Two Column Layout -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-12">
+
+<!-- Left Column: Selected Projects -->
+<section class="md:col-span-5 space-y-10">
+<div class="flex items-baseline justify-between border-b border-primary pb-2 mb-6">
+<h2 class="serif-display text-2xl md:text-3xl font-bold italic">Selected Projects</h2>
+<span class="label-meta text-primary font-black">Section I</span>
+</div>
+
+{{projects_html}}
+</section>
+
+<!-- Right Column: Publications -->
+<section class="md:col-span-7 md:border-l md:border-outline-variant md:pl-10 lg:md:pl-12">
+<div class="flex items-baseline justify-between border-b border-primary pb-2 mb-8">
+<h2 class="serif-display text-2xl md:text-3xl font-bold italic">Publications</h2>
+<span class="label-meta text-primary font-black">Section II</span>
+</div>
+<div class="space-y-8">
+
+{{publications_html}}
+
+<!-- Scholarly Impact Summary -->
+<div class="bg-surface-container-low p-6 border-l-4 border-primary mt-10">
+<h3 class="label-meta font-black tracking-[0.15em] mb-4 text-primary text-xs">Scholarly Impact</h3>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+<div>
+<p class="serif-display text-3xl font-black">{{impact_publications}}</p>
+<p class="label-meta text-[9px] tracking-widest opacity-60">Publications</p>
+</div>
+<div>
+<p class="serif-display text-3xl font-black">{{impact_citations}}</p>
+<p class="label-meta text-[9px] tracking-widest opacity-60">Total Citations</p>
+</div>
+<div>
+<p class="serif-display text-3xl font-black">{{impact_h_index}}</p>
+<p class="label-meta text-[9px] tracking-widest opacity-60">h-index</p>
+</div>
+<div>
+<p class="serif-display text-3xl font-black">{{impact_i10_index}}</p>
+<p class="label-meta text-[9px] tracking-widest opacity-60">i10-index</p>
+</div>
+</div>
+<p class="label-meta text-[9px] text-on-surface-variant mt-4">Source: <a href="https://scholar.google.com/citations?user=V42cREYAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline py-1 inline-block">Google Scholar</a></p>
+</div>
+
+</div>
+</section>
+
+</div>
+</main>

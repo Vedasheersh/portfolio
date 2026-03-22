@@ -1,0 +1,138 @@
+title: "Publications & Research | Veda Sheersh Boorla"
+description: "Peer-reviewed publications in protein engineering, machine learning, and structural biology. 20+ papers, 398 citations, h-index 9."
+og_image: "portrait1.jpg"
+subtitle: "Publications & Research"
+subtitle_text: "A compendium of peer-reviewed publications, computational tools, and research investigations in protein engineering, machine learning, and structural biology."
+subtitle_meta: "Machine Learning Scientist, Arcellx Inc."
+
+impact:
+  publications: "20+"
+  citations: "398"
+  h_index: "9"
+  i10_index: "9"
+
+projects:
+  - title: "CatPred"
+    badge: "NAT. COMM."
+    category: "ML Tool Development / Enzyme Kinetics"
+    description: "Deep learning framework utilizing protein language models and probabilistic learning to boost enzyme turnover prediction accuracy by 40%. Provides a comprehensive platform for predicting in vitro enzyme kinetic parameters including k<sub>cat</sub>, K<sub>M</sub>, and k<sub>cat</sub>/K<sub>M</sub>."
+    meta: "Published in Nature Communications, 2025 &middot; 80 Citations"
+    has_divider: true
+
+  - title: "SARS-CoV-2 Binding Prediction"
+    badge: "PNAS"
+    category: "Computational Biology"
+    description: "Biophysics-driven ML model for predicting effects of mutations on Spike-hACE2 binding affinity. Developed a high-throughput MD simulation pipeline, dissecting 2 TB of molecular dynamics data to map the mutational landscape of the receptor binding domain."
+    meta: "Published in PNAS, 2021 &middot; 101 Citations"
+    has_divider: true
+
+  - title: "Antibody Design (SARS-CoV-2)"
+    badge: "PROTEINS"
+    category: "Antibody & Protein Engineering"
+    description: "High-impact antibody library targeting SARS-CoV-2 Spike using VDJ recombination algorithm and Rosetta-driven affinity maturation, boosting binding efficiency by 50%. De novo design and assessment of high-affinity antibody variable regions (Fv) against the Spike RBD."
+    meta: "Published in Proteins, 2023 &middot; 15 Citations"
+    has_divider: true
+
+  - title: "Enzrank / Enzyme Redesign"
+    badge: "METAB. ENG."
+    category: "ML Tool Development"
+    description: "Deep learning tool for selection and re-design of enzymes for novel substrates by integrating unsupervised and supervised learning. Rank-orders known enzymes as starting points for re-engineering novel substrate activity using a convolutional neural network."
+    meta: "Published in Metabolic Engineering, 2023 &middot; 26 Citations"
+    has_divider: true
+
+  - title: "IPRO+/-"
+    badge: "STRUCTURE"
+    category: "Protein Design Tool"
+    description: "Optimization-based protein design tool to incorporate insertions and deletions into protein sequences. Developed \"Indel-Maker\" for modeling insertions and deletions using PyRosetta, extending the design space beyond point mutations."
+    meta: "Published in Structure, 2020 &middot; 15 Citations"
+    has_divider: false
+
+publications:
+  - year: "2026"
+    papers:
+      - title: "Ultra-Processed Food Consumption and Colorectal Cancer Risk: a Systematic Review and 2-Stage Mediation Meta-Analysis"
+        badge: "NUTR. REV."
+        authors: 'S.S. Akkapelli, <strong>V.S. Boorla</strong>, M. Majooju. <span class="italic">Nutrition Reviews</span>, nuaf283.'
+        citations: null
+        notes: null
+
+  - year: "2025"
+    papers:
+      - title: "CatPred: A Comprehensive Framework for Deep Learning of in vitro Enzyme Kinetic Parameters"
+        badge: "NAT. COMM."
+        authors: '<strong>V.S. Boorla</strong>, C.D. Maranas. <span class="italic">Nature Communications</span>, 16(1), 2072.'
+        citations: "80"
+        notes: null
+
+  - year: "2024"
+    papers:
+      - title: "Dehydrated Biomimetic Membranes with Skinlike Structure and Function"
+        badge: "ACS APPL."
+        authors: 'H. Oh, Y.M. Tu, L. Samineni, S. De Respino, B. Mehrafrooz, H. Joshi, <strong>V.S. Boorla</strong>, et al. <span class="italic">ACS Applied Materials & Interfaces</span>, 16(16), 20865-20877.'
+        citations: "9"
+        notes: null
+      - title: "Stability and Dynamics of Extradenticle Modulates its Function"
+        badge: "CURR. RES."
+        authors: 'A. Singh, B. Acharya, B. Mukherjee, <strong>V.S. Boorla</strong>, S. Boral, S. Maiti, S. De. <span class="italic">Current Research in Structural Biology</span>, 7, 100150.'
+        citations: "4"
+        notes: null
+
+  - year: "2023"
+    papers:
+      - title: "Rank-ordering of Known Enzymes as Starting Points for Re-engineering Novel Substrate Activity Using a Convolutional Neural Network"
+        badge: "METAB. ENG."
+        authors: 'V. Upadhyay, <strong>V.S. Boorla</strong>, C.D. Maranas. <span class="italic">Metabolic Engineering</span>, 78, 171-182.'
+        citations: "26"
+        notes: null
+      - title: "Little Brown Bats (Myotis lucifugus) Support the Binding of SARS-CoV-2 Spike and Are Likely Susceptible to SARS-CoV-2 Infection"
+        badge: "VIRUSES"
+        authors: 'S.K. Chothe, P. Jakka, <strong>V.S. Boorla</strong>, S. Ramasamy, A. Gontu, R.H. Nissly, et al. <span class="italic">Viruses</span>, 15(5), 1103.'
+        citations: "3"
+        notes: null
+      - title: "De novo Design and Rosetta-based Assessment of High-affinity Antibody Variable Regions (Fv) Against the SARS-CoV-2 Spike Receptor Binding Domain (RBD)"
+        badge: "PROTEINS"
+        authors: '<strong>V.S. Boorla</strong>*, R. Chowdhury*, R. Ramasubramanian, B. Ameglio, R. Frick, J. Bloom, R. Chowdhury, J.J. Gray, C.D. Maranas. <span class="italic">Proteins: Structure, Function, and Bioinformatics</span>.'
+        citations: "15"
+        notes: "* Co-first author"
+
+  - year: "2022"
+    papers:
+      - title: "ML helps predict enzyme turnover rates"
+        badge: "NAT. CATAL."
+        authors: '<strong>V.S. Boorla</strong>, V. Upadhyay, C.D. Maranas. <span class="italic">Nature Catalysis</span>, 5(6), 655-657.'
+        citations: "4"
+        notes: null
+      - title: "Assessing the impact of substrate-level enzyme regulations limiting ethanol titer in Clostridium thermocellum using a core kinetic model"
+        badge: "METAB. ENG."
+        authors: 'C. Foster, <strong>V.S. Boorla</strong>, et al. <span class="italic">Metabolic Engineering</span>.'
+        citations: "17"
+        notes: null
+
+  - year: "2021"
+    papers:
+      - title: "Computational prediction of the effect of amino acid changes on the binding affinity between SARS-CoV-2 spike RBD and human ACE2"
+        badge: "PNAS"
+        authors: 'C. Chen*, <strong>V.S. Boorla</strong>*, et al. <span class="italic">Proceedings of the National Academy of Sciences</span>.'
+        citations: "101"
+        notes: "* Co-first author"
+
+  - year: "2020"
+    papers:
+      - title: "Computational biophysical characterization of the SARS-CoV-2 spike protein binding with the ACE2 receptor"
+        badge: null
+        authors: 'R. Chowdhury, <strong>V.S. Boorla</strong>, C.D. Maranas.'
+        citations: "43"
+        notes: null
+      - title: "IPRO+/-: Computational protein design tool allowing for insertions and deletions"
+        badge: "STRUCTURE"
+        authors: '<strong>V.S. Boorla</strong>, et al. <span class="italic">Structure</span>.'
+        citations: "15"
+        notes: null
+
+  - year: "2019"
+    papers:
+      - title: "Dynamic studies on intrinsically disordered regions of two paralogous transcription factors reveal rigid segments with important biological functions"
+        badge: "J. MOL. BIOL."
+        authors: 'S. Maiti, B. Acharya, <strong>V.S. Boorla</strong>, et al. <span class="italic">Journal of Molecular Biology</span>.'
+        citations: "35"
+        notes: null

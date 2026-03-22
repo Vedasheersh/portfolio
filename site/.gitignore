@@ -1,0 +1,8 @@
+# Generated files (built by CI from content/ + templates/)
+*.html
+styles.css
+
+# Keep these tracked
+!.gitignore
+!.nojekyll
+!TODOS.md

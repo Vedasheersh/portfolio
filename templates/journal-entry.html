@@ -1,0 +1,34 @@
+<main id="main-content" class="pt-8 pb-12 px-4 md:px-8 max-w-[1400px] mx-auto">
+<!-- Header -->
+<header class="border-b-2 border-on-background pb-6 md:pb-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-4 mb-10">
+<div class="max-w-3xl">
+<p class="label-meta text-primary font-bold mb-2">Computational Protein Engineer</p>
+<h1 class="serif-display text-3xl md:text-5xl font-black leading-tight tracking-tight text-on-background">Veda Sheersh Boorla</h1>
+</div>
+<div class="md:text-right space-y-3">
+<nav aria-label="Main navigation">
+<div class="flex gap-6 md:justify-end">
+<a class="label-meta font-bold text-[#2f342e] opacity-70 hover:opacity-100 transition-opacity hover:text-[#aa3527] py-2" href="index.html">Home</a>
+<a class="label-meta font-bold text-[#2f342e] opacity-70 hover:opacity-100 transition-opacity hover:text-[#aa3527] py-2" href="archive.html">Archive</a>
+<a class="label-meta font-bold text-[#aa3527] border-b-2 border-[#aa3527] py-2" href="journal.html">Journal</a>
+</div>
+</nav>
+<p class="label-meta hidden md:block">Thousand Oaks, California</p>
+</div>
+</header>
+
+<!-- Entry Content -->
+<article class="max-w-3xl">
+<div class="mb-8">
+<p class="label-meta text-primary font-bold mb-2">{{date}}</p>
+<h2 class="serif-display text-4xl md:text-5xl font-bold tracking-tight leading-none mb-3">{{entry_title}}</h2>
+<p class="serif-display italic text-lg md:text-xl text-on-surface-variant leading-snug">{{entry_description}}</p>
+</div>
+<div class="prose prose-lg font-body leading-relaxed text-on-surface space-y-4">
+{{content}}
+</div>
+<div class="mt-12 pt-6 border-t border-outline-variant">
+<a href="journal.html" class="serif-display text-lg text-primary hover:text-primary-dim transition-colors">&larr; Back to Journal</a>
+</div>
+</article>
+</main>
