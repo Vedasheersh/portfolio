@@ -274,12 +274,29 @@ function buildJournalIndex() {
     });
   }
 
+  // Generate entries HTML
+  let entriesHtml = '';
+  for (const entry of entryFiles) {
+    const dateStr = entry.date ? new Date(entry.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
+    entriesHtml += `
+<a href="journal/${entry.slug}.html" class="group block bg-surface-container-low border border-outline-variant p-6 md:p-8 hover:border-primary transition-colors">
+<p class="label-meta text-primary font-bold text-[10px] mb-2">${dateStr}</p>
+<h4 class="serif-display text-xl md:text-2xl font-bold leading-tight group-hover:text-primary transition-colors mb-2">${entry.title || ''}</h4>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">${entry.description || ''}</p>
+</a>`;
+  }
+
+  if (entryFiles.length === 0) {
+    entriesHtml = '<p class="font-body text-sm text-on-surface-variant italic">No entries yet. Check back soon.</p>';
+  }
+
   const bodyHtml = render(template, {
     subtitle: data.subtitle,
     subtitle_text: data.subtitle_text,
     editors_note: data.editors_note,
     editors_note_followup: data.editors_note_followup,
     topics_html: topicsHtml,
+    entries_html: entriesHtml,
   });
 
   const html = wrapBase(bodyHtml, {
