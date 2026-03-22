@@ -4,7 +4,7 @@
   "scripts": {
     "build:css": "tailwindcss -i src/input.css -o site/styles.css --minify",
     "build:site": "bun build.js",
-    "build": "bun run build:css && bun run build:site",
+    "build": "bun run build:site && bun run build:css",
     "watch:css": "tailwindcss -i src/input.css -o site/styles.css --watch",
     "watch": "bun run build && bun --watch build.js"
   },
