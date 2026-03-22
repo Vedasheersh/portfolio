@@ -45,7 +45,32 @@ projects:
     category: "Protein Design Tool"
     description: "Optimization-based protein design tool to incorporate insertions and deletions into protein sequences. Developed \"Indel-Maker\" for modeling insertions and deletions using PyRosetta, extending the design space beyond point mutations."
     meta: "Published in Structure, 2020 &middot; 15 Citations"
+    has_divider: true
+
+  - title: "Membrane Protein for CWA Binding"
+    badge: "AICHE"
+    category: "Protein Engineering"
+    description: "Engineered a membrane protein with precise binding to chemical warfare agents using a custom design pipeline in Rosetta. Structure-based computational design targeting selective molecular recognition."
+    meta: "Presented at AIChE Annual Meeting, 2023"
+    has_divider: true
+
+  - title: "De Novo Cellulase Design"
+    badge: "IN PROGRESS"
+    category: "De Novo Protein Design"
+    description: "De novo cellulase library designed using RFDiffusion-AllAtom and LigandMPNN, achieving a 30% reduction in protein size. Currently undergoing MD validation for structural stability and catalytic competence."
+    meta: "In progress"
     has_divider: false
+
+presentations:
+  - title: "Enzrank-2.0: A Deep Learning Tool for Selection and Re-Design of Enzymes for Novel Substrates"
+    venue: "2024 AIChE Annual Meeting"
+    date: "October 2024"
+    authors: '<strong>V.S. Boorla</strong>, et al. and C.D. Maranas'
+
+  - title: "Computational Design of Protein Nanopores for Selective Binding to Chemical Warfare Agents"
+    venue: "2023 AIChE Annual Meeting"
+    date: "November 2023"
+    authors: '<strong>V.S. Boorla</strong>, et al. and C.D. Maranas'
 
 publications:
   - year: "2026"
